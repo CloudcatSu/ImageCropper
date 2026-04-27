@@ -7,7 +7,7 @@ ver.1.1.0 (2026/04/27)
 
 ## 系統要求
 - macOS 14.0 或更高版本
-- 支援 Apple Silicon (M1/M2/M3) 與 Intel 晶片
+- 支援 Apple Silicon 系列晶片電腦
 
 ## 開發工具
 - **Language**: Python / Swift
@@ -15,7 +15,7 @@ ver.1.1.0 (2026/04/27)
 - **Model**: Claude 3.5 Sonnet / Gemma 4
 
 ## 安裝說明
-1. 請進入Dist資料夾，將 ScrnshotMate.app 拖曳到應用程式資料夾。
+1. 請進入Dist資料夾，將 ScrnshotMate.dmg 下載後安裝。
 2. 若遇到安全性檢查，請至「系統設定」允許開啟。
 
 ## 授權協議
