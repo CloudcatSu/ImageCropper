@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('assets', 'assets')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -44,7 +44,7 @@ coll = COLLECT(
 )
 app = BUNDLE(
     coll,
-    name='ImageCropper.app',
-    icon=None,
+    name='ScrnshotMate.app',
+    icon='assets/ScrnshotMate_icon.icns',
     bundle_identifier=None,
 )

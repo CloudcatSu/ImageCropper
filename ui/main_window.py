@@ -5,6 +5,7 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt, QThread
 
+from PySide6.QtGui import QIcon
 from ui.preview_grid import PreviewGrid
 from ui.crop_editor import CropEditor
 from ui.export_dialog import ExportDialog
@@ -13,8 +14,15 @@ from core.image_processor import BatchProcessorWorker
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("自動化裁切圖片工具 (Image Cropper)")
+        self.setWindowTitle("ScrnshotMate - 自動化裁切圖片工具")
         self.resize(1000, 700)
+        
+        # Set window icon
+        from utils.helpers import resource_path
+        icon_path = resource_path(os.path.join("assets", "ScrnshotMate_icon.png"))
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
+            
         self.setup_ui()
 
     def setup_ui(self):

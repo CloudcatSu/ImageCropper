@@ -30,11 +30,31 @@ class PreviewGrid(QWidget):
         empty_layout = QVBoxLayout(self.empty_widget)
         empty_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
         
-        lbl_title = QLabel("Image Cropper")
-        lbl_title.setStyleSheet("font-size: 64px; font-weight: bold; color: #555;")
+        # Title
+        lbl_title = QLabel("ScrnshotMate")
+        font = lbl_title.font()
+        font.setPixelSize(64)
+        font.setBold(True)
+        lbl_title.setFont(font)
         lbl_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         
-        lbl_version = QLabel("v1.0.0")
+        # Calculate half width of the title for the icon
+        from PySide6.QtGui import QFontMetrics
+        fm = QFontMetrics(font)
+        title_width = fm.horizontalAdvance("ScrnshotMate")
+        icon_width = title_width // 2
+
+        # Icon
+        self.lbl_icon = QLabel()
+        from utils.helpers import resource_path
+        icon_path = resource_path(os.path.join("assets", "ScrnshotMate_icon.png"))
+        if os.path.exists(icon_path):
+            pixmap = QPixmap(icon_path)
+            self.lbl_icon.setPixmap(pixmap.scaledToWidth(icon_width, Qt.TransformationMode.SmoothTransformation))
+        self.lbl_icon.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lbl_icon.setContentsMargins(0, 0, 0, 20)
+        
+        lbl_version = QLabel("v1.1.0")
         lbl_version.setStyleSheet("font-size: 18px; color: #888;")
         lbl_version.setAlignment(Qt.AlignmentFlag.AlignCenter)
         
@@ -43,6 +63,7 @@ class PreviewGrid(QWidget):
         lbl_desc.setAlignment(Qt.AlignmentFlag.AlignCenter)
         
         empty_layout.addStretch()
+        empty_layout.addWidget(self.lbl_icon)
         empty_layout.addWidget(lbl_title)
         empty_layout.addWidget(lbl_version)
         empty_layout.addWidget(lbl_desc)

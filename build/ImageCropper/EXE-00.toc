@@ -61,7 +61,7 @@
  [],
  False,
  False,
- 1777216853,
+ 1777282805,
  [('runw',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',

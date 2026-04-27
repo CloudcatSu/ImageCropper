@@ -832,6 +832,14 @@
   ('QtWidgets',
    'PySide6/Qt/lib/QtWidgets.framework/Versions/A/QtWidgets',
    'SYMLINK'),
+  ('assets/ScrnshotMate_icon.icns',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.icns',
+   'DATA'),
+  ('assets/ScrnshotMate_icon.png',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.png',
+   'DATA'),
   ('base_library.zip',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/build/ImageCropper/base_library.zip',

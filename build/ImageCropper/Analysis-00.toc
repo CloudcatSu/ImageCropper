@@ -16,7 +16,18 @@
  {},
  0,
  [],
- [],
+ [('assets/.DS_Store',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/.DS_Store',
+   'DATA'),
+  ('assets/ScrnshotMate_icon.icns',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.icns',
+   'DATA'),
+  ('assets/ScrnshotMate_icon.png',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.png',
+   'DATA')],
  '3.12.2 (main, Apr  8 2026, 15:57:41) [Clang 21.0.0 (clang-2100.0.123.102)]',
  [('pyi_rth_inspect',
    '/Users/cloudsu/Library/Mobile '
@@ -332,21 +343,20 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PyInstaller/fake-modules/_pyi_rth_utils/__init__.py',
    'PYMODULE'),
-  ('stringprep',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/stringprep.py',
-   'PYMODULE'),
   ('_py_abc',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/stringprep.py',
    'PYMODULE'),
   ('tracemalloc',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/tracemalloc.py',
    'PYMODULE'),
-  ('subprocess',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/subprocess.py',
+  ('utils.helpers',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/utils/helpers.py',
    'PYMODULE'),
-  ('signal',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/signal.py',
-   'PYMODULE'),
+  ('utils', '-', 'PYMODULE'),
   ('ui.main_window',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/ui/main_window.py',
@@ -469,6 +479,12 @@
    'PYMODULE'),
   ('xml.sax.xmlreader',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/xml/sax/xmlreader.py',
+   'PYMODULE'),
+  ('subprocess',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/signal.py',
    'PYMODULE'),
   ('send2trash.mac',
    '/Users/cloudsu/Library/Mobile '
@@ -837,6 +853,10 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/ui/crop_editor.py',
    'PYMODULE'),
+  ('ui.preview_grid',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/ui/preview_grid.py',
+   'PYMODULE'),
   ('shiboken6',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/shiboken6/__init__.py',
@@ -852,89 +872,13 @@
   ('PySide6.support',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/support/__init__.py',
-   'PYMODULE'),
-  ('ui.preview_grid',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/ui/preview_grid.py',
    'PYMODULE')],
  [('libpython3.12.dylib',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/libpython3.12.dylib',
    'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqsvg.dylib',
+  ('PySide6/Qt/plugins/tls/libqsecuretransportbackend.dylib',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqsvg.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqgif.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqgif.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqtiff.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqtiff.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqmacjp2.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqmacjp2.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqtga.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqtga.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqicns.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqicns.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/iconengines/libqsvgicon.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/iconengines/libqsvgicon.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqjpeg.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqjpeg.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/platforms/libqminimal.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqminimal.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqwbmp.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqwbmp.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/generic/libqtuiotouchplugin.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/generic/libqtuiotouchplugin.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqico.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqico.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/platforms/libqoffscreen.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqoffscreen.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqpdf.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqpdf.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqmacheif.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqmacheif.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/platforms/libqcocoa.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqcocoa.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/imageformats/libqwebp.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqwebp.dylib',
-   'BINARY'),
-  ('PySide6/Qt/plugins/tls/libqcertonlybackend.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/tls/libqcertonlybackend.dylib',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/tls/libqsecuretransportbackend.dylib',
    'BINARY'),
   ('PySide6/Qt/plugins/tls/libqopensslbackend.dylib',
    '/Users/cloudsu/Library/Mobile '
@@ -944,9 +888,81 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/networkinformation/libqapplenetworkinformation.dylib',
    'BINARY'),
-  ('PySide6/Qt/plugins/tls/libqsecuretransportbackend.dylib',
+  ('PySide6/Qt/plugins/tls/libqcertonlybackend.dylib',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/tls/libqsecuretransportbackend.dylib',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/tls/libqcertonlybackend.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqpdf.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqpdf.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqwebp.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqwebp.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/platforms/libqoffscreen.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqoffscreen.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/generic/libqtuiotouchplugin.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/generic/libqtuiotouchplugin.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/iconengines/libqsvgicon.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/iconengines/libqsvgicon.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqmacheif.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqmacheif.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/platforms/libqminimal.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqminimal.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqjpeg.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqjpeg.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqgif.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqgif.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqtiff.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqtiff.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqsvg.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqsvg.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/platforms/libqcocoa.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforms/libqcocoa.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqico.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqico.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqtga.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqtga.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqmacjp2.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqmacjp2.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqicns.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqicns.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.dylib',
+   'BINARY'),
+  ('PySide6/Qt/plugins/imageformats/libqwbmp.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/imageformats/libqwbmp.dylib',
    'BINARY'),
   ('PySide6/Qt/plugins/styles/libqmacstyle.dylib',
    '/Users/cloudsu/Library/Mobile '
@@ -1033,6 +1049,9 @@
   ('python3.12/lib-dynload/resource.cpython-312-darwin.so',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/resource.cpython-312-darwin.so',
    'EXTENSION'),
+  ('python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
+   'EXTENSION'),
   ('python3.12/lib-dynload/_multibytecodec.cpython-312-darwin.so',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_multibytecodec.cpython-312-darwin.so',
    'EXTENSION'),
@@ -1054,15 +1073,6 @@
   ('python3.12/lib-dynload/_codecs_hk.cpython-312-darwin.so',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_codecs_hk.cpython-312-darwin.so',
    'EXTENSION'),
-  ('python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
-   'EXTENSION'),
-  ('python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so',
-   'EXTENSION'),
-  ('python3.12/lib-dynload/fcntl.cpython-312-darwin.so',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/fcntl.cpython-312-darwin.so',
-   'EXTENSION'),
   ('python3.12/lib-dynload/_ctypes.cpython-312-darwin.so',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_ctypes.cpython-312-darwin.so',
    'EXTENSION'),
@@ -1077,6 +1087,12 @@
    'EXTENSION'),
   ('python3.12/lib-dynload/pyexpat.cpython-312-darwin.so',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/pyexpat.cpython-312-darwin.so',
+   'EXTENSION'),
+  ('python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so',
+   'EXTENSION'),
+  ('python3.12/lib-dynload/fcntl.cpython-312-darwin.so',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/fcntl.cpython-312-darwin.so',
    'EXTENSION'),
   ('PIL/_webp.cpython-312-darwin.so',
    '/Users/cloudsu/Library/Mobile '
@@ -1108,13 +1124,9 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/_imaging.cpython-312-darwin.so',
    'EXTENSION'),
-  ('PySide6/QtGui.abi3.so',
+  ('PySide6/QtCore.abi3.so',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtGui.abi3.so',
-   'EXTENSION'),
-  ('PySide6/QtDBus.abi3.so',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtDBus.abi3.so',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtCore.abi3.so',
    'EXTENSION'),
   ('shiboken6/Shiboken.abi3.so',
    '/Users/cloudsu/Library/Mobile '
@@ -1127,9 +1139,13 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtNetwork.abi3.so',
    'EXTENSION'),
-  ('PySide6/QtCore.abi3.so',
+  ('PySide6/QtGui.abi3.so',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtCore.abi3.so',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtGui.abi3.so',
+   'EXTENSION'),
+  ('PySide6/QtDBus.abi3.so',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/QtDBus.abi3.so',
    'EXTENSION'),
   ('PySide6/QtWidgets.abi3.so',
    '/Users/cloudsu/Library/Mobile '
@@ -1142,25 +1158,25 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtCore.framework/Versions/A/QtCore',
    'BINARY'),
-  ('PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg',
+  ('PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork',
    'BINARY'),
   ('PySide6/Qt/lib/QtGui.framework/Versions/A/QtGui',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtGui.framework/Versions/A/QtGui',
    'BINARY'),
-  ('PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork',
+  ('PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf',
    'BINARY'),
-  ('PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
+  ('PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg',
    'BINARY'),
-  ('PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick',
+  ('PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml',
    'BINARY'),
   ('PySide6/Qt/lib/QtOpenGL.framework/Versions/A/QtOpenGL',
    '/Users/cloudsu/Library/Mobile '
@@ -1170,13 +1186,13 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtVirtualKeyboard.framework/Versions/A/QtVirtualKeyboard',
    'BINARY'),
-  ('PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml',
+  ('PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick',
    'BINARY'),
-  ('PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf',
+  ('PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
    'BINARY'),
   ('PySide6/Qt/lib/QtWidgets.framework/Versions/A/QtWidgets',
    '/Users/cloudsu/Library/Mobile '
@@ -1189,17 +1205,17 @@
   ('libssl.3.dylib',
    '/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib',
    'BINARY'),
-  ('PIL/.dylibs/libwebpdemux.2.dylib',
+  ('PIL/.dylibs/libwebp.7.dylib',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libwebpdemux.2.dylib',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libwebp.7.dylib',
    'BINARY'),
   ('PIL/.dylibs/libwebpmux.3.dylib',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libwebpmux.3.dylib',
    'BINARY'),
-  ('PIL/.dylibs/libwebp.7.dylib',
+  ('PIL/.dylibs/libwebpdemux.2.dylib',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libwebp.7.dylib',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libwebpdemux.2.dylib',
    'BINARY'),
   ('PIL/.dylibs/libavif.16.4.1.dylib',
    '/Users/cloudsu/Library/Mobile '
@@ -1213,6 +1229,10 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libopenjp2.2.5.4.dylib',
    'BINARY'),
+  ('PIL/.dylibs/libxcb.1.1.0.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libxcb.1.1.0.dylib',
+   'BINARY'),
   ('PIL/.dylibs/libjpeg.62.4.0.dylib',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libjpeg.62.4.0.dylib',
@@ -1225,17 +1245,13 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libtiff.6.dylib',
    'BINARY'),
-  ('PIL/.dylibs/libxcb.1.1.0.dylib',
+  ('shiboken6/libshiboken6.abi3.6.11.dylib',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libxcb.1.1.0.dylib',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/shiboken6/libshiboken6.abi3.6.11.dylib',
    'BINARY'),
   ('PySide6/libpyside6.abi3.6.11.dylib',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/libpyside6.abi3.6.11.dylib',
-   'BINARY'),
-  ('shiboken6/libshiboken6.abi3.6.11.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/shiboken6/libshiboken6.abi3.6.11.dylib',
    'BINARY'),
   ('PySide6/Qt/lib/QtDBus.framework/Versions/A/QtDBus',
    '/Users/cloudsu/Library/Mobile '
@@ -1245,465 +1261,473 @@
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQmlWorkerScript.framework/Versions/A/QtQmlWorkerScript',
    'BINARY'),
-  ('PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
-   'BINARY'),
   ('PySide6/Qt/lib/QtQmlMeta.framework/Versions/A/QtQmlMeta',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQmlMeta.framework/Versions/A/QtQmlMeta',
+   'BINARY'),
+  ('PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
    'BINARY'),
   ('PIL/.dylibs/libsharpyuv.0.dylib',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libsharpyuv.0.dylib',
    'BINARY'),
-  ('PIL/.dylibs/liblzma.5.dylib',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/liblzma.5.dylib',
-   'BINARY'),
   ('PIL/.dylibs/libXau.6.dylib',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/libXau.6.dylib',
+   'BINARY'),
+  ('PIL/.dylibs/liblzma.5.dylib',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PIL/.dylibs/liblzma.5.dylib',
    'BINARY')],
  [],
  [],
- [('PySide6/Qt/translations/qt_help_ko.qm',
+ [('assets/ScrnshotMate_icon.icns',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ko.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.icns',
    'DATA'),
-  ('PySide6/Qt/translations/qt_sv.qm',
+  ('assets/ScrnshotMate_icon.png',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sv.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ca.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ca.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_uk.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_uk.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ka.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ka.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ar.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ar.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_nl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_nl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_sv.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_sv.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_pt_BR.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pt_BR.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_hr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_hr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ca.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ca.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_pt_PT.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pt_PT.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_sk.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_sk.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_bg.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_bg.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_ru.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ru.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_cs.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_cs.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_nn.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_nn.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ko.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ko.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_ja.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ja.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_lv.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_lv.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_lg.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_lg.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_es.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_es.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_pl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_he.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_he.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_zh_CN.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_zh_CN.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/assets/ScrnshotMate_icon.png',
    'DATA'),
   ('PySide6/Qt/translations/qt_hr.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_hr.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_gl.qm',
+  ('PySide6/Qt/translations/qtbase_fi.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_gl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_hu.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_hu.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_it.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_it.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_zh_CN.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_zh_CN.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_sv.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_sv.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_da.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_da.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_pt_BR.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_pt_BR.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fi.qm',
    'DATA'),
   ('PySide6/Qt/translations/qtbase_en.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_en.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_en.qm',
+  ('PySide6/Qt/translations/qt_help_pt_BR.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_en.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_sk.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_sk.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_pt_BR.qm',
    'DATA'),
   ('PySide6/Qt/translations/qt_help_sl.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_sl.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_help_hu.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_hu.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_da.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_da.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_pl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_pl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_gd.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_gd.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_es.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_es.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_hu.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_hu.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_pt_BR.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_pt_BR.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_fr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_fr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_fr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_de.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_de.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_cs.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_cs.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_zh_TW.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_zh_TW.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_it.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_it.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_it.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_it.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_he.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_he.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_bg.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_bg.qm',
-   'DATA'),
   ('PySide6/Qt/translations/qtbase_de.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_de.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_sk.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sk.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_es.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_es.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ru.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ru.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_zh_CN.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_zh_CN.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ru.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ru.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_lt.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_lt.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_da.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_da.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_ca.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ca.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_ar.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ar.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_zh_TW.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_zh_TW.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_fi.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fi.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_hr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_hr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_fi.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fi.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ja.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ja.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_lg.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_lg.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_nl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_nl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ka.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ka.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_fa.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fa.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_ja.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ja.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_sl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_nn.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_nn.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_ka.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ka.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ko.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ko.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_nl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_nl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_tr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_tr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_tr.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_tr.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_fa.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fa.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_pl.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_pl.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_cs.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_cs.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_nn.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_nn.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qtbase_ar.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ar.qm',
-   'DATA'),
-  ('PySide6/Qt/translations/qt_help_zh_TW.qm',
-   '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_zh_TW.qm',
    'DATA'),
   ('PySide6/Qt/translations/qt_lv.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_lv.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_help_en.qm',
+  ('PySide6/Qt/translations/qt_tr.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_en.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_tr.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qtbase_fr.qm',
+  ('PySide6/Qt/translations/qtbase_lv.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fr.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_lv.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_uk.qm',
+  ('PySide6/Qt/translations/qtbase_it.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_uk.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_it.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_de.qm',
+  ('PySide6/Qt/translations/qtbase_nl.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_de.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_nl.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_help_bg.qm',
+  ('PySide6/Qt/translations/qt_help_ru.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_bg.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ru.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_help_tr.qm',
+  ('PySide6/Qt/translations/qtbase_fa.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_tr.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fa.qm',
    'DATA'),
-  ('PySide6/Qt/translations/qt_help_gl.qm',
+  ('PySide6/Qt/translations/qt_pt_PT.qm',
    '/Users/cloudsu/Library/Mobile '
-   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_gl.qm',
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pt_PT.qm',
    'DATA'),
   ('PySide6/Qt/translations/qtbase_uk.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_uk.qm',
    'DATA'),
+  ('PySide6/Qt/translations/qt_ru.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ru.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_cs.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_cs.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_gl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_gl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_de.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_de.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_ka.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ka.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_sk.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sk.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_hu.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_hu.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_he.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_he.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_es.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_es.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_bg.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_bg.qm',
+   'DATA'),
   ('PySide6/Qt/translations/qt_gd.qm',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_gd.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_zh_CN.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_ar.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ar.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_ca.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ca.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_sv.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_sv.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_da.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_da.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_gl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_gl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_uk.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_uk.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_pl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ru.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ru.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_ar.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ar.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_it.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_it.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_fi.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fi.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_zh_CN.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_pl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_pl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ja.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ja.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_es.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_es.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_ko.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ko.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_pt_BR.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_es.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_es.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_sv.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sv.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_bg.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_bg.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_hr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_hr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_bg.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_bg.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_ko.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ko.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_hu.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_hu.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_lg.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_lg.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_gd.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_gd.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_nl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_nl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_zh_TW.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_pl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_pl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_tr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_tr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_sv.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_sv.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_da.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_da.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_cs.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_cs.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_ja.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ja.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_hr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_hr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ca.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ca.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_de.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_de.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_uk.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_uk.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_ja.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ja.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_zh_TW.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_it.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_it.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_ka.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_ka.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_da.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_da.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_nn.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_nn.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_sl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_sl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_zh_TW.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_nl.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_nl.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ko.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ko.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_fr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_fr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ar.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ar.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_nn.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_nn.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_ka.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_ka.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_fr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_cs.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_cs.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_sk.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_sk.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_lg.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_lg.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_en.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_en.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_fa.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_fa.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_lt.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_lt.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_en.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_en.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_fr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_fr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_tr.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_tr.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_hu.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_hu.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_nn.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_nn.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_he.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_he.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_ca.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_ca.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_pt_BR.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qtbase_sk.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qtbase_sk.qm',
+   'DATA'),
+  ('PySide6/Qt/translations/qt_help_zh_CN.qm',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/translations/qt_help_zh_CN.qm',
    'DATA'),
   ('base_library.zip',
    '/Users/cloudsu/Library/Mobile '
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/build/ImageCropper/base_library.zip',
    'DATA'),
   ('QtCore', 'PySide6/Qt/lib/QtCore.framework/Versions/A/QtCore', 'SYMLINK'),
-  ('QtSvg', 'PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg', 'SYMLINK'),
-  ('QtGui', 'PySide6/Qt/lib/QtGui.framework/Versions/A/QtGui', 'SYMLINK'),
   ('QtNetwork',
    'PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork',
    'SYMLINK'),
-  ('QtVirtualKeyboardQml',
-   'PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
-   'SYMLINK'),
-  ('QtQuick', 'PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick', 'SYMLINK'),
+  ('QtGui', 'PySide6/Qt/lib/QtGui.framework/Versions/A/QtGui', 'SYMLINK'),
+  ('QtPdf', 'PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf', 'SYMLINK'),
+  ('QtSvg', 'PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg', 'SYMLINK'),
+  ('QtQml', 'PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml', 'SYMLINK'),
   ('QtOpenGL',
    'PySide6/Qt/lib/QtOpenGL.framework/Versions/A/QtOpenGL',
    'SYMLINK'),
   ('QtVirtualKeyboard',
    'PySide6/Qt/lib/QtVirtualKeyboard.framework/Versions/A/QtVirtualKeyboard',
    'SYMLINK'),
-  ('QtQml', 'PySide6/Qt/lib/QtQml.framework/Versions/A/QtQml', 'SYMLINK'),
-  ('QtPdf', 'PySide6/Qt/lib/QtPdf.framework/Versions/A/QtPdf', 'SYMLINK'),
+  ('QtQuick', 'PySide6/Qt/lib/QtQuick.framework/Versions/A/QtQuick', 'SYMLINK'),
+  ('QtVirtualKeyboardQml',
+   'PySide6/Qt/lib/QtVirtualKeyboardQml.framework/Versions/A/QtVirtualKeyboardQml',
+   'SYMLINK'),
   ('QtWidgets',
    'PySide6/Qt/lib/QtWidgets.framework/Versions/A/QtWidgets',
    'SYMLINK'),
   ('liblzma.5.dylib', 'PIL/.dylibs/liblzma.5.dylib', 'SYMLINK'),
-  ('libwebpdemux.2.dylib', 'PIL/.dylibs/libwebpdemux.2.dylib', 'SYMLINK'),
-  ('libwebpmux.3.dylib', 'PIL/.dylibs/libwebpmux.3.dylib', 'SYMLINK'),
   ('libwebp.7.dylib', 'PIL/.dylibs/libwebp.7.dylib', 'SYMLINK'),
+  ('libwebpmux.3.dylib', 'PIL/.dylibs/libwebpmux.3.dylib', 'SYMLINK'),
+  ('libwebpdemux.2.dylib', 'PIL/.dylibs/libwebpdemux.2.dylib', 'SYMLINK'),
   ('libavif.16.4.1.dylib', 'PIL/.dylibs/libavif.16.4.1.dylib', 'SYMLINK'),
   ('liblcms2.2.dylib', 'PIL/.dylibs/liblcms2.2.dylib', 'SYMLINK'),
   ('libopenjp2.2.5.4.dylib', 'PIL/.dylibs/libopenjp2.2.5.4.dylib', 'SYMLINK'),
+  ('libxcb.1.1.0.dylib', 'PIL/.dylibs/libxcb.1.1.0.dylib', 'SYMLINK'),
   ('libjpeg.62.4.0.dylib', 'PIL/.dylibs/libjpeg.62.4.0.dylib', 'SYMLINK'),
   ('libz.1.3.1.zlib-ng.dylib',
    'PIL/.dylibs/libz.1.3.1.zlib-ng.dylib',
    'SYMLINK'),
   ('libtiff.6.dylib', 'PIL/.dylibs/libtiff.6.dylib', 'SYMLINK'),
-  ('libxcb.1.1.0.dylib', 'PIL/.dylibs/libxcb.1.1.0.dylib', 'SYMLINK'),
-  ('libpyside6.abi3.6.11.dylib',
-   'PySide6/libpyside6.abi3.6.11.dylib',
-   'SYMLINK'),
   ('libshiboken6.abi3.6.11.dylib',
    'shiboken6/libshiboken6.abi3.6.11.dylib',
+   'SYMLINK'),
+  ('libpyside6.abi3.6.11.dylib',
+   'PySide6/libpyside6.abi3.6.11.dylib',
    'SYMLINK'),
   ('QtDBus', 'PySide6/Qt/lib/QtDBus.framework/Versions/A/QtDBus', 'SYMLINK'),
   ('QtQmlWorkerScript',
    'PySide6/Qt/lib/QtQmlWorkerScript.framework/Versions/A/QtQmlWorkerScript',
    'SYMLINK'),
-  ('QtQmlModels',
-   'PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
-   'SYMLINK'),
   ('QtQmlMeta',
    'PySide6/Qt/lib/QtQmlMeta.framework/Versions/A/QtQmlMeta',
+   'SYMLINK'),
+  ('QtQmlModels',
+   'PySide6/Qt/lib/QtQmlModels.framework/Versions/A/QtQmlModels',
    'SYMLINK'),
   ('libsharpyuv.0.dylib', 'PIL/.dylibs/libsharpyuv.0.dylib', 'SYMLINK'),
   ('libXau.6.dylib', 'PIL/.dylibs/libXau.6.dylib', 'SYMLINK'),
@@ -1870,26 +1894,38 @@
    'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/venv/lib/python3.12/site-packages/PySide6/Qt/lib/QtWidgets.framework/Versions/A/Resources/Info.plist',
    'DATA'),
   ('PySide6/Qt/lib/QtWidgets.framework/Versions/Current', 'A', 'SYMLINK')],
- [('keyword',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/keyword.py',
+ [('_collections_abc',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/_collections_abc.py',
    'PYMODULE'),
-  ('traceback',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/traceback.py',
+  ('sre_constants',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_constants.py',
    'PYMODULE'),
-  ('re._parser',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_parser.py',
+  ('reprlib',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/reprlib.py',
    'PYMODULE'),
-  ('re._constants',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_constants.py',
+  ('weakref',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/weakref.py',
    'PYMODULE'),
-  ('re._compiler',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_compiler.py',
+  ('ntpath',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/ntpath.py',
    'PYMODULE'),
-  ('re._casefix',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_casefix.py',
+  ('locale',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/locale.py',
    'PYMODULE'),
-  ('re',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/__init__.py',
+  ('io',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/io.py',
+   'PYMODULE'),
+  ('sre_compile',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_compile.py',
+   'PYMODULE'),
+  ('heapq',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/heapq.py',
+   'PYMODULE'),
+  ('stat',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/stat.py',
+   'PYMODULE'),
+  ('abc',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/abc.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/encodings/zlib_codec.py',
@@ -2257,11 +2293,53 @@
   ('encodings',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/encodings/__init__.py',
    'PYMODULE'),
+  ('warnings',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/warnings.py',
+   'PYMODULE'),
   ('copyreg',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/copyreg.py',
    'PYMODULE'),
-  ('types',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/types.py',
+  ('operator',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/operator.py',
+   'PYMODULE'),
+  ('sre_parse',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_parse.py',
+   'PYMODULE'),
+  ('genericpath',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/genericpath.py',
+   'PYMODULE'),
+  ('re._parser',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/_casefix.py',
+   'PYMODULE'),
+  ('re',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/re/__init__.py',
+   'PYMODULE'),
+  ('posixpath',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/posixpath.py',
+   'PYMODULE'),
+  ('functools',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/functools.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/_weakrefset.py',
+   'PYMODULE'),
+  ('codecs',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/codecs.py',
+   'PYMODULE'),
+  ('keyword',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/keyword.py',
+   'PYMODULE'),
+  ('enum',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/enum.py',
    'PYMODULE'),
   ('collections.abc',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/collections/abc.py',
@@ -2269,68 +2347,14 @@
   ('collections',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/collections/__init__.py',
    'PYMODULE'),
+  ('traceback',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/traceback.py',
+   'PYMODULE'),
   ('linecache',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/linecache.py',
    'PYMODULE'),
-  ('functools',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/functools.py',
-   'PYMODULE'),
-  ('codecs',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/codecs.py',
-   'PYMODULE'),
-  ('heapq',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/heapq.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/_weakrefset.py',
-   'PYMODULE'),
-  ('sre_constants',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_constants.py',
-   'PYMODULE'),
-  ('reprlib',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/reprlib.py',
-   'PYMODULE'),
-  ('genericpath',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/genericpath.py',
-   'PYMODULE'),
-  ('posixpath',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/posixpath.py',
-   'PYMODULE'),
-  ('abc',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/abc.py',
-   'PYMODULE'),
-  ('sre_parse',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_parse.py',
-   'PYMODULE'),
-  ('io',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/io.py',
-   'PYMODULE'),
-  ('warnings',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/warnings.py',
-   'PYMODULE'),
-  ('operator',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/operator.py',
-   'PYMODULE'),
-  ('stat',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/stat.py',
-   'PYMODULE'),
-  ('sre_compile',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/sre_compile.py',
-   'PYMODULE'),
-  ('locale',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/locale.py',
-   'PYMODULE'),
-  ('ntpath',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/ntpath.py',
-   'PYMODULE'),
-  ('enum',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/enum.py',
-   'PYMODULE'),
-  ('weakref',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/weakref.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/_collections_abc.py',
+  ('types',
+   '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/types.py',
    'PYMODULE'),
   ('os',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/os.py',

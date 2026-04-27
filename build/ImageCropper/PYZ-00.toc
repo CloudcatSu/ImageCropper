@@ -773,6 +773,11 @@
   ('urllib.response',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/urllib/response.py',
    'PYMODULE'),
+  ('utils', '-', 'PYMODULE'),
+  ('utils.helpers',
+   '/Users/cloudsu/Library/Mobile '
+   'Documents/com~apple~CloudDocs/Documents/程式_iCloud/Antigravity/ImageCropper/utils/helpers.py',
+   'PYMODULE'),
   ('xml',
    '/Users/cloudsu/.pyenv/versions/3.12.2/lib/python3.12/xml/__init__.py',
    'PYMODULE'),
