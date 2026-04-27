@@ -15,7 +15,7 @@ ver.1.1.0 (2026/04/27)
 - **Model**: Claude 3.5 Sonnet / Gemma 4
 
 ## 安裝說明
-1. 請進入Dist資料夾，將Image Cropper.app拖曳到應用程式資料夾。
+1. 請進入Dist資料夾，將 ScrnshotMate.app 拖曳到應用程式資料夾。
 2. 若遇到安全性檢查，請至「系統設定」允許開啟。
 
 ## 授權協議
