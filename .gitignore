@@ -1,2 +1,15 @@
-/venv
+# 打包產物（每台電腦自己產生）
+dist/
+build/
+*.spec.bak
+
+# 虛擬環境（每台電腦自己建立）
+venv/
+__pycache__/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+
+# 設計資料不同步
 /0_iconDesign
